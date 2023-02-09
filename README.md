@@ -12,7 +12,7 @@ App Authors:
 - Aashish Anand
 - Axl Martinez 
 - Tamsen Dean
-- Trystan Wong
+- Trystan L Wong 
 - Kawika Suzuki
 - Tyler Santos
 - Lukas Miller
