@@ -12,6 +12,11 @@ App Authors:
 - Aashish Anand
 - Axl Martinez 
 - Tamsen Dean
+- Trystan Wong
+- Kawika Suzuki
+- Tyler Santos
+- Lukas Miller
+- Matthew Tran
 
 Our Top 5 System Quality Attributes Are:
 1) Usability
@@ -20,4 +25,4 @@ Our Top 5 System Quality Attributes Are:
 4) Modifiability
 5) Simplicity
 
-Updated: 4/5/22
+Updated: 2/9/23
