@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-const Endocrinology_Tutorial = () => (
+const Endocrinology_MM = () => (
     <View style={styles.mainContainer}>
         <WebView 
             javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Endocrinology_MM.php'}} 
@@ -25,4 +25,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Endocrinology_Tutorial;
+export default Endocrinology_MM;
