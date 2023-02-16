@@ -3,15 +3,28 @@ import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'rea
 import { WebView } from 'react-native-webview';
 import { Share } from 'react-native';
 
-const HC_Tutorial = () => (
-    <View style={styles.mainContainer}>
-        <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/hereditary-conditions-tutorial/'}} 
-            style={styles.view}
-        />
-    </View>
-);
+const HC_Tutorial = () => {
 
+    const handleShare = () => {
+      Share.share({
+        message: 'Check out this HC tutorial content: https://physicaldiagnosispdx.com/hereditary-conditions-tutorial/',
+      });
+    };
+  
+    return (
+      <View style={styles.mainContainer}>
+        <WebView
+          javaScriptEnabled={true}
+          source={{uri: 'https://physicaldiagnosispdx.com/hereditary-conditions-tutorial/'}}
+          style={styles.view}
+        />
+        <TouchableOpacity style={styles.button} onPress={handleShare}>
+          <Text style={styles.buttonText}>Share</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
+  
 const styles = StyleSheet.create({
     mainContainer: {
         flex: 1,
@@ -23,7 +36,18 @@ const styles = StyleSheet.create({
     view: {
         resizeMode: 'stretch',
         top: 40
-    }
+    },
+    button: {
+        backgroundColor: 'red',
+        borderRadius: 5,
+        padding: 10,
+        margin: 10,
+    },
+
+    buttonText: {
+        color: 'white',
+        textAlign: 'center',
+    },
 });
 
 export default HC_Tutorial;
