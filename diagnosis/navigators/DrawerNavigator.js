@@ -44,7 +44,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -57,7 +57,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
 
@@ -71,7 +71,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -84,7 +84,7 @@ const DrawerNavigator = () => {
           headerShown: true,
           headerTitle: (props) => <LogoTitle {...props} />,
           headerStyle: {
-            backgroundColor: "#BFAA8C",
+            backgroundColor: "#4B4645",
             height: 100,
           },
           drawerIcon: () => (
@@ -97,7 +97,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -110,7 +110,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -123,7 +123,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -136,7 +136,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -149,7 +149,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerIcon: () => (
@@ -168,7 +168,7 @@ const DrawerNavigator = () => {
             headerShown: true,
             headerTitle: (props) => <LogoTitle {...props} />,
             headerStyle: {
-              backgroundColor: "#BFAA8C",
+              backgroundColor: "#4B4645",
               height: 100,
             },
             drawerItemStyle: { height: 0 }
