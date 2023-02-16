@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 const Endocrinology_Tutorial = () => (
     <View style={styles.mainContainer}>
         <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Endocrinology_Tutorial.php'}} 
+            javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/endocrinology-2/'}} 
             style={styles.view}
         />
     </View>
