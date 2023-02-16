@@ -3,14 +3,28 @@ import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'rea
 import { WebView } from 'react-native-webview';
 import { Share } from 'react-native';
 
-const Endocrinology_Tutorial = () => (
-    <View style={styles.mainContainer}>
-        <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/endocrinology-2/'}} 
-            style={styles.view}
+
+const Endocrinology_Tutorial = () => {
+
+    const handleShare = () => {
+      Share.share({
+        message: 'Check out this endocrinology tutorial content: https://physicaldiagnosispdx.com/endocrinology-2/',
+      });
+    };
+  
+    return (
+      <View style={styles.mainContainer}>
+        <WebView
+          javaScriptEnabled={true}
+          source={{uri: 'https://physicaldiagnosispdx.com/endocrinology-2/'}}
+          style={styles.view}
         />
-    </View>
-);
+        <TouchableOpacity style={styles.button} onPress={handleShare}>
+          <Text style={styles.buttonText}>Share</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
 
 const styles = StyleSheet.create({
     mainContainer: {
@@ -23,7 +37,18 @@ const styles = StyleSheet.create({
     view: {
         resizeMode: 'stretch',
         top: 40
-    }
+    },
+    button: {
+        backgroundColor: 'red',
+        borderRadius: 5,
+        padding: 10,
+        margin: 10,
+    },
+
+    buttonText: {
+        color: 'white',
+        textAlign: 'center',
+    },
 });
 
 export default Endocrinology_Tutorial;
