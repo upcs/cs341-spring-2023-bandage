@@ -6,7 +6,7 @@ import { WebView } from 'react-native-webview';
 const Cardiology_MM = () => (
     <View style={styles.mainContainer}>
         <WebView
-            javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php'}}
+            javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/cardiology-multimedia-new/'}}
             style={styles.view}
         />
     </View>
