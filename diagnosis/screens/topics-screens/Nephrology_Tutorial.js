@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'react-native';
 import { WebView } from 'react-native-webview';
+import { Share } from 'react-native';
 
 const Nephrology_Tutorial = () => (
     <View style={styles.mainContainer}>
