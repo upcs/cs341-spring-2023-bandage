@@ -179,8 +179,13 @@ const DrawerNavigator = () => {
 }
 
 function LogoTitle() {
+  //Kawikas New changes to logo title 
+  const handlePress = () => {
+  // Code to execute when the logo is pressed
+    alert("Logo pressed");
+  };
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={handlePress}>
       <Image
       style={{ 
         width: 190, 
