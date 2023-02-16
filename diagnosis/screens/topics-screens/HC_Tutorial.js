@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 const HC_Tutorial = () => (
     <View style={styles.mainContainer}>
         <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HC_Tutorial.php'}} 
+            javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/hereditary-conditions-tutorial/'}} 
             style={styles.view}
         />
     </View>

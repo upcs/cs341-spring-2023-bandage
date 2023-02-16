@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 const ID_Tutorial = () => (
     <View style={styles.mainContainer}>
         <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/ID_Tutorial.php'}} 
+            javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/infectious-disease-2/'}} 
             style={styles.view}
         />
     </View>

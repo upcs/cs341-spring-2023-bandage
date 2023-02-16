@@ -36,12 +36,12 @@ describe('<Topics />', () => {
         const tree = renderer.create(<Topics/>).toJSON();
         expect(tree).toMatchSnapshot();
      });
-
+     // Currently just testing Cardiology linking is not yet done, must make sure site is loaded right TODO
      test("Cardiology", () => {
         const tutorialSnap = renderer.create(<Cardiology_Tutorial/>).toJSON();
         const MMSnap = renderer.create(<Cardiology_MM/>).toJSON();
-        const tutorial = Linking.canOpenURL('https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php');
-        const MM = Linking.canOpenURL('https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php');
+        const tutorial = Linking.canOpenURL('https://physicaldiagnosispdx.com/card-tutorial/');
+        const MM = Linking.canOpenURL('https://physicaldiagnosispdx.com/cardiology-multimedia-new/');
         expect(tutorialSnap).toMatchSnapshot();
         expect(MMSnap).toMatchSnapshot();
         expect(tutorial).toBeTruthy();
