@@ -181,7 +181,7 @@ const DrawerNavigator = () => {
 function LogoTitle() {
   //Kawikas New changes to logo title 
   const handlePress = () => {
-    // Code to execute when the logo is pressed
+  // Code to execute when the logo is pressed
     alert("Logo pressed");
   };
   return (

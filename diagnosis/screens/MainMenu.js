@@ -37,6 +37,7 @@ const MainMenu = ({ route, navigation }) => {
                 <TouchableOpacity testID='buttonFive' style={styles.quickLinkButtons} onPress={() => navigation.navigate("AboutUs")}> 
                     <Text style={styles.buttonText}>About Us</Text>
                 </TouchableOpacity>
+
             </View>
         
         </View>
