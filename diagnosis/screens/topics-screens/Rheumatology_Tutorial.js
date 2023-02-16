@@ -3,11 +3,11 @@ import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'rea
 import { WebView } from 'react-native-webview';
 import { Share } from 'react-native';
 
-const Pulmonolgy_Tutorial = () => {
+const Rheumatology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this rehumatology tutorial content: https://physicaldiagnosispdx.com/rheumatology-3/',
+        message: 'Check out this rheumatology tutorial content: https://physicaldiagnosispdx.com/rheumatology-3/',
       });
     };
   
