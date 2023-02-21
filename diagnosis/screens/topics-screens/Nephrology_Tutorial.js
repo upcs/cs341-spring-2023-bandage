@@ -15,7 +15,7 @@ const Nephrology_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/nephrology-3/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nephrology_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

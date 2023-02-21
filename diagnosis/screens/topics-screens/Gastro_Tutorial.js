@@ -15,7 +15,7 @@ const Gastro_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/gastroenterology/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Gastro_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

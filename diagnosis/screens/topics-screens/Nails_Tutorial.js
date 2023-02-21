@@ -16,7 +16,7 @@ const Nails_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/nails-2/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nails_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
