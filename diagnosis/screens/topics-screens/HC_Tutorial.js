@@ -7,7 +7,7 @@ const HC_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this HC tutorial content: https://physicaldiagnosispdx.com/hereditary-conditions-tutorial/',
+        message: 'Check out this HC tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HC_Tutorial.php',
       });
     };
   

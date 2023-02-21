@@ -7,7 +7,7 @@ const Neurology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this neurology tutorial content: https://physicaldiagnosispdx.com/neurology-t/',
+        message: 'Check out this neurology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Neurology_Tutorial.php',
       });
     };
   

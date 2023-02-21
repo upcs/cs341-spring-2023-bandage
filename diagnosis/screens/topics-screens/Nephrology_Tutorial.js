@@ -7,7 +7,7 @@ const Nephrology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this nephrology tutorial content: https://physicaldiagnosispdx.com/nephrology-3/',
+        message: 'Check out this nephrology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nephrology_Tutorial.php',
       });
     };
   

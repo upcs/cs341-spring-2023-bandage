@@ -7,7 +7,7 @@ const Cardiology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this cardiology tutorial content: https://physicaldiagnosispdx.com/card-tutorial/',
+        message: 'Check out this cardiology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php',
       });
     };
   
@@ -15,7 +15,7 @@ const Cardiology_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/card-tutorial/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

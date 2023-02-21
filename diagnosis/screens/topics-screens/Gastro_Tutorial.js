@@ -7,7 +7,7 @@ const Gastro_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this gastro tutorial content: https://physicaldiagnosispdx.com/gastroenterology/',
+        message: 'Check out this gastro tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Gastro_Tutorial.php',
       });
     };
   

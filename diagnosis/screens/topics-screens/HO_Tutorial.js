@@ -7,7 +7,7 @@ const HO_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this HO tutorial content: https://physicaldiagnosispdx.com/hematology-oncology/',
+        message: 'Check out this HO tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HO_Tutorial.php',
       });
     };
   

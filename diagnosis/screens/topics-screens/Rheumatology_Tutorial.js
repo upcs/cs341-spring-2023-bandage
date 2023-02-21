@@ -7,7 +7,7 @@ const Rheumatology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this rheumatology tutorial content: https://physicaldiagnosispdx.com/rheumatology-3/',
+        message: 'Check out this rheumatology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php',
       });
     };
   
