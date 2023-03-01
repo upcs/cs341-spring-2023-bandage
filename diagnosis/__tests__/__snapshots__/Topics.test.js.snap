@@ -27,7 +27,7 @@ exports[`<Topics /> Cardiology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -38,7 +38,7 @@ exports[`<Topics /> Cardiology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/card-tutorial/",
         }
       }
       style={
@@ -56,9 +56,41 @@ exports[`<Topics /> Cardiology 1`] = `
           },
         ]
       }
-      testID="CardioTutorial"
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -90,7 +122,7 @@ exports[`<Topics /> Cardiology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -101,7 +133,7 @@ exports[`<Topics /> Cardiology 2`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php",
+          "uri": "https://physicaldiagnosispdx.com/cardiology-multimedia-new/",
         }
       }
       style={
@@ -119,8 +151,42 @@ exports[`<Topics /> Cardiology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+    testID="shareButton"
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -152,7 +218,7 @@ exports[`<Topics /> Endocrinology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -163,7 +229,7 @@ exports[`<Topics /> Endocrinology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Endocrinology_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/endocrinology-2/",
         }
       }
       style={
@@ -181,8 +247,41 @@ exports[`<Topics /> Endocrinology 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -214,7 +313,7 @@ exports[`<Topics /> Endocrinology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -243,6 +342,7 @@ exports[`<Topics /> Endocrinology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -276,7 +376,7 @@ exports[`<Topics /> Gastroenterology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -287,7 +387,7 @@ exports[`<Topics /> Gastroenterology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Gastro_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/gastroenterology/",
         }
       }
       style={
@@ -305,8 +405,41 @@ exports[`<Topics /> Gastroenterology 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -338,7 +471,7 @@ exports[`<Topics /> Gastroenterology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -367,6 +500,7 @@ exports[`<Topics /> Gastroenterology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -400,7 +534,7 @@ exports[`<Topics /> Hematology-Oncology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -411,7 +545,7 @@ exports[`<Topics /> Hematology-Oncology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HO_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/hematology-oncology/",
         }
       }
       style={
@@ -429,8 +563,41 @@ exports[`<Topics /> Hematology-Oncology 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -462,7 +629,7 @@ exports[`<Topics /> Hematology-Oncology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -491,6 +658,7 @@ exports[`<Topics /> Hematology-Oncology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -524,7 +692,7 @@ exports[`<Topics /> Heridatary Conditions 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -535,7 +703,7 @@ exports[`<Topics /> Heridatary Conditions 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HC_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/hereditary-conditions-tutorial/",
         }
       }
       style={
@@ -553,8 +721,41 @@ exports[`<Topics /> Heridatary Conditions 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -586,7 +787,7 @@ exports[`<Topics /> Heridatary Conditions 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -615,6 +816,7 @@ exports[`<Topics /> Heridatary Conditions 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -648,7 +850,7 @@ exports[`<Topics /> Infectious Diseases 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -659,7 +861,7 @@ exports[`<Topics /> Infectious Diseases 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/ID_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/infectious-disease-2/",
         }
       }
       style={
@@ -677,8 +879,41 @@ exports[`<Topics /> Infectious Diseases 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -710,7 +945,7 @@ exports[`<Topics /> Infectious Diseases 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -739,6 +974,7 @@ exports[`<Topics /> Infectious Diseases 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -772,7 +1008,7 @@ exports[`<Topics /> Misc 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -783,7 +1019,7 @@ exports[`<Topics /> Misc 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Misc_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/miscellanous-tutorial/",
         }
       }
       style={
@@ -801,8 +1037,41 @@ exports[`<Topics /> Misc 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -834,7 +1103,7 @@ exports[`<Topics /> Misc 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -863,6 +1132,7 @@ exports[`<Topics /> Misc 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -896,7 +1166,7 @@ exports[`<Topics /> Nails 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -907,7 +1177,7 @@ exports[`<Topics /> Nails 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nails_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/nails-2/",
         }
       }
       style={
@@ -925,8 +1195,41 @@ exports[`<Topics /> Nails 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -958,7 +1261,7 @@ exports[`<Topics /> Nails 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -987,6 +1290,7 @@ exports[`<Topics /> Nails 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -1020,7 +1324,7 @@ exports[`<Topics /> Nephrology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1031,7 +1335,7 @@ exports[`<Topics /> Nephrology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nephrology_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/nephrology-3/",
         }
       }
       style={
@@ -1049,8 +1353,41 @@ exports[`<Topics /> Nephrology 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -1082,7 +1419,7 @@ exports[`<Topics /> Nephrology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1111,6 +1448,7 @@ exports[`<Topics /> Nephrology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -1144,7 +1482,7 @@ exports[`<Topics /> Neurology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1155,7 +1493,7 @@ exports[`<Topics /> Neurology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Neurology_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/neurology-t/",
         }
       }
       style={
@@ -1173,8 +1511,41 @@ exports[`<Topics /> Neurology 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -1206,7 +1577,7 @@ exports[`<Topics /> Neurology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1235,6 +1606,7 @@ exports[`<Topics /> Neurology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -1268,7 +1640,7 @@ exports[`<Topics /> Pulmonolgy 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1279,7 +1651,7 @@ exports[`<Topics /> Pulmonolgy 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Pulmonolgy_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/pulmonology-tutorial/",
         }
       }
       style={
@@ -1297,8 +1669,41 @@ exports[`<Topics /> Pulmonolgy 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -1330,7 +1735,7 @@ exports[`<Topics /> Pulmonolgy 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1359,6 +1764,7 @@ exports[`<Topics /> Pulmonolgy 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>
@@ -1392,7 +1798,7 @@ exports[`<Topics /> Rheumatology 1`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1403,7 +1809,7 @@ exports[`<Topics /> Rheumatology 1`] = `
       onShouldStartLoadWithRequest={[Function]}
       source={
         Object {
-          "uri": "https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php",
+          "uri": "https://physicaldiagnosispdx.com/rheumatology-3/",
         }
       }
       style={
@@ -1421,8 +1827,41 @@ exports[`<Topics /> Rheumatology 1`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "backgroundColor": "red",
+        "borderRadius": 5,
+        "margin": 10,
+        "opacity": 1,
+        "padding": 10,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "textAlign": "center",
+        }
+      }
+    >
+      Share
+    </Text>
   </View>
 </View>
 `;
@@ -1454,7 +1893,7 @@ exports[`<Topics /> Rheumatology 2`] = `
       injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
       injectedJavaScriptForMainFrameOnly={true}
       javaScriptEnabled={true}
-      messagingEnabled={false}
+      messagingEnabled={true}
       onContentProcessDidTerminate={[Function]}
       onHttpError={[Function]}
       onLoadingError={[Function]}
@@ -1483,6 +1922,7 @@ exports[`<Topics /> Rheumatology 2`] = `
           },
         ]
       }
+      textInteractionEnabled={true}
       useSharedProcessPool={true}
     />
   </View>

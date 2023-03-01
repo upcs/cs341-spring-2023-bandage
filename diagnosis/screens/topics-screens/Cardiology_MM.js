@@ -18,12 +18,17 @@ const Cardiology_MM = () => {
           source={{uri: 'https://physicaldiagnosispdx.com/cardiology-multimedia-new/'}}
           style={styles.view}
         />
-        <TouchableOpacity style={styles.button} onPress={handleShare}>
+        <TouchableOpacity 
+          style={styles.button} 
+          onPress={handleShare}
+          testID="shareButton" // add a testID prop
+        >
           <Text style={styles.buttonText}>Share</Text>
         </TouchableOpacity>
       </View>
     );
   };
+
 
 const styles = StyleSheet.create({
     mainContainer: {
