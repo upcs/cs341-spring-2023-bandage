@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <coverage generated="1650751013321" clover="3.2.0">
   <project timestamp="1650751013321" name="All files">
     <metrics statements="379" coveredstatements="244" conditionals="46" coveredconditionals="38" methods="145" coveredmethods="44" elements="570" coveredelements="326" complexity="0" loc="379" ncloc="379" packages="6" files="54" classes="54"/>
@@ -9,10 +10,17 @@
 =======
 <coverage generated="1677638246777" clover="3.2.0">
   <project timestamp="1677638246777" name="All files">
+=======
+<coverage generated="1677638515594" clover="3.2.0">
+  <project timestamp="1677638515594" name="All files">
+>>>>>>> Stashed changes
     <metrics statements="413" coveredstatements="258" conditionals="48" coveredconditionals="38" methods="160" coveredmethods="45" elements="621" coveredelements="341" complexity="0" loc="413" ncloc="413" packages="6" files="54" classes="54"/>
     <package name="diagnosis">
       <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/App.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="6" count="1" type="stmt"/>
@@ -21,6 +29,7 @@
     </package>
     <package name="diagnosis.assets">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <file name="Andre-314x314.png" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/assets/Andre-314x314.png">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -66,6 +75,29 @@
       </file>
       <file name="stethoscope.jpeg" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/stethoscope.jpeg">
 >>>>>>> Stashed changes
+=======
+      <file name="Andre-314x314.png" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/Andre-314x314.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="Sullivan.jpeg" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/Sullivan.jpeg">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="cropped-logo_new-1.png" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/cropped-logo_new-1.png">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+      <file name="ishita-sharma.jpeg" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/ishita-sharma.jpeg">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="jgn.jpg" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/jgn.jpg">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+      <file name="stethoscope.jpeg" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/assets/stethoscope.jpeg">
+>>>>>>> Stashed changes
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>
@@ -73,7 +105,11 @@
     <package name="diagnosis.components">
       <metrics statements="31" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="CarouselCardItem.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/components/CarouselCardItem.js">
+=======
+      <file name="CarouselCardItem.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/CarouselCardItem.js">
+>>>>>>> Stashed changes
 =======
       <file name="CarouselCardItem.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/CarouselCardItem.js">
 >>>>>>> Stashed changes
@@ -85,7 +121,11 @@
         <line num="18" count="1" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="CustomDrawer.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/components/CustomDrawer.js">
+=======
+      <file name="CustomDrawer.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/CustomDrawer.js">
+>>>>>>> Stashed changes
 =======
       <file name="CustomDrawer.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/CustomDrawer.js">
 >>>>>>> Stashed changes
@@ -96,7 +136,11 @@
         <line num="42" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="KeyboardAvoidWrap.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/components/KeyboardAvoidWrap.js">
+=======
+      <file name="KeyboardAvoidWrap.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/KeyboardAvoidWrap.js">
+>>>>>>> Stashed changes
 =======
       <file name="KeyboardAvoidWrap.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/KeyboardAvoidWrap.js">
 >>>>>>> Stashed changes
@@ -105,7 +149,11 @@
         <line num="7" count="13" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="SignUpLoginStyles.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/components/SignUpLoginStyles.js">
+=======
+      <file name="SignUpLoginStyles.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/SignUpLoginStyles.js">
+>>>>>>> Stashed changes
 =======
       <file name="SignUpLoginStyles.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/components/SignUpLoginStyles.js">
 >>>>>>> Stashed changes
@@ -169,7 +217,11 @@
         <line num="195" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="StackNavigator.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/navigators/StackNavigator.js">
+=======
+      <file name="StackNavigator.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/navigators/StackNavigator.js">
+>>>>>>> Stashed changes
 =======
       <file name="StackNavigator.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/navigators/StackNavigator.js">
 >>>>>>> Stashed changes
@@ -186,12 +238,16 @@
 =======
       <metrics statements="246" coveredstatements="134" conditionals="48" coveredconditionals="38" methods="94" coveredmethods="21"/>
       <file name="AboutUs.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/AboutUs.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
       </file>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <file name="Activities.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Activities.js">
         <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -201,6 +257,8 @@
       </file>
       <file name="Books.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Books.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Activities.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Activities.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -208,6 +266,9 @@
         <line num="15" count="3" type="stmt"/>
       </file>
       <file name="Books.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Books.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
         <line num="15" count="3" type="stmt"/>
@@ -221,7 +282,11 @@
         <line num="98" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Community.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Community.js">
+=======
+      <file name="Community.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Community.js">
+>>>>>>> Stashed changes
 =======
       <file name="Community.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Community.js">
 >>>>>>> Stashed changes
@@ -231,7 +296,11 @@
         <line num="10" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Donate.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Donate.js">
+=======
+      <file name="Donate.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Donate.js">
+>>>>>>> Stashed changes
 =======
       <file name="Donate.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Donate.js">
 >>>>>>> Stashed changes
@@ -241,7 +310,11 @@
         <line num="12" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="KnowledgeTest.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/KnowledgeTest.js">
+=======
+      <file name="KnowledgeTest.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/KnowledgeTest.js">
+>>>>>>> Stashed changes
 =======
       <file name="KnowledgeTest.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/KnowledgeTest.js">
 >>>>>>> Stashed changes
@@ -251,7 +324,11 @@
         <line num="12" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Lecture_DR.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Lecture_DR.js">
+=======
+      <file name="Lecture_DR.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lecture_DR.js">
+>>>>>>> Stashed changes
 =======
       <file name="Lecture_DR.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lecture_DR.js">
 >>>>>>> Stashed changes
@@ -261,7 +338,11 @@
         <line num="18" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Lecture_JVP.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Lecture_JVP.js">
+=======
+      <file name="Lecture_JVP.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lecture_JVP.js">
+>>>>>>> Stashed changes
 =======
       <file name="Lecture_JVP.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lecture_JVP.js">
 >>>>>>> Stashed changes
@@ -271,7 +352,11 @@
         <line num="14" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Lecture_VHD.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Lecture_VHD.js">
+=======
+      <file name="Lecture_VHD.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lecture_VHD.js">
+>>>>>>> Stashed changes
 =======
       <file name="Lecture_VHD.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lecture_VHD.js">
 >>>>>>> Stashed changes
@@ -281,7 +366,11 @@
         <line num="15" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Lectures.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Lectures.js">
+=======
+      <file name="Lectures.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lectures.js">
+>>>>>>> Stashed changes
 =======
       <file name="Lectures.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Lectures.js">
 >>>>>>> Stashed changes
@@ -294,7 +383,11 @@
         <line num="29" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Login.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Login.js">
+=======
+      <file name="Login.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Login.js">
+>>>>>>> Stashed changes
 =======
       <file name="Login.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Login.js">
 >>>>>>> Stashed changes
@@ -332,7 +425,11 @@
         <line num="184" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="MainMenu.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/MainMenu.js">
+=======
+      <file name="MainMenu.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/MainMenu.js">
+>>>>>>> Stashed changes
 =======
       <file name="MainMenu.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/MainMenu.js">
 >>>>>>> Stashed changes
@@ -350,7 +447,11 @@
         <line num="48" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Multimedia.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Multimedia.js">
+=======
+      <file name="Multimedia.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Multimedia.js">
+>>>>>>> Stashed changes
 =======
       <file name="Multimedia.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Multimedia.js">
 >>>>>>> Stashed changes
@@ -378,7 +479,11 @@
         <line num="73" count="0" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Settings.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Settings.js">
+=======
+      <file name="Settings.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Settings.js">
+>>>>>>> Stashed changes
 =======
       <file name="Settings.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Settings.js">
 >>>>>>> Stashed changes
@@ -392,10 +497,13 @@
         <line num="35" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Signup.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Signup.js">
         <metrics statements="13" coveredstatements="8" conditionals="24" coveredconditionals="23" methods="7" coveredmethods="3"/>
         <line num="29" count="3" type="stmt"/>
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Signup.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Signup.js">
         <metrics statements="19" coveredstatements="8" conditionals="26" coveredconditionals="23" methods="8" coveredmethods="3"/>
         <line num="28" count="3" type="stmt"/>
@@ -414,7 +522,11 @@
         <line num="156" count="0" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="TeamInfo.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/TeamInfo.js">
+=======
+      <file name="TeamInfo.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/TeamInfo.js">
+>>>>>>> Stashed changes
 =======
       <file name="TeamInfo.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/TeamInfo.js">
 >>>>>>> Stashed changes
@@ -429,7 +541,11 @@
         <line num="72" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Topics.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/Topics.js">
+=======
+      <file name="Topics.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Topics.js">
+>>>>>>> Stashed changes
 =======
       <file name="Topics.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/Topics.js">
 >>>>>>> Stashed changes
@@ -561,6 +677,7 @@
         <line num="15" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Cardiology_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Cardiology_Tutorial.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -569,6 +686,8 @@
       </file>
       <file name="Endocrinology_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Endocrinology_MM.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Cardiology_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Cardiology_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -578,12 +697,16 @@
         <line num="28" count="3" type="stmt"/>
       </file>
       <file name="Endocrinology_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Endocrinology_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
         <line num="6" count="2" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
       </file>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <file name="Endocrinology_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Endocrinology_Tutorial.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -593,6 +716,8 @@
       </file>
       <file name="Gastro_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Gastro_MM.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Endocrinology_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Endocrinology_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="7" count="3" type="stmt"/>
@@ -602,6 +727,9 @@
         <line num="29" count="3" type="stmt"/>
       </file>
       <file name="Gastro_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Gastro_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="5" count="2" type="stmt"/>
@@ -609,8 +737,11 @@
         <line num="14" count="2" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Gastro_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Gastro_Tutorial.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Gastro_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Gastro_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -620,6 +751,9 @@
         <line num="27" count="3" type="stmt"/>
       </file>
       <file name="HC_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/HC_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -627,8 +761,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="HC_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/HC_MM.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="HC_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/HC_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -638,6 +775,9 @@
         <line num="28" count="3" type="stmt"/>
       </file>
       <file name="HO_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/HO_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -645,8 +785,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="HC_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/HC_Tutorial.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="HO_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/HO_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -656,6 +799,9 @@
         <line num="28" count="3" type="stmt"/>
       </file>
       <file name="ID_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/ID_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -663,8 +809,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="HO_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/HO_MM.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="ID_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/ID_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -674,6 +823,9 @@
         <line num="28" count="3" type="stmt"/>
       </file>
       <file name="Misc_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Misc_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -681,8 +833,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="HO_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/HO_Tutorial.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Misc_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Misc_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -692,6 +847,9 @@
         <line num="28" count="3" type="stmt"/>
       </file>
       <file name="Nails_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Nails_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -699,8 +857,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="ID_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/ID_MM.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Nails_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Nails_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="7" count="3" type="stmt"/>
@@ -710,6 +871,9 @@
         <line num="29" count="3" type="stmt"/>
       </file>
       <file name="Nephrology_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Nephrology_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -717,8 +881,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="ID_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/ID_Tutorial.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Nephrology_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Nephrology_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -728,6 +895,9 @@
         <line num="28" count="3" type="stmt"/>
       </file>
       <file name="Neurology_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Neurology_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -735,8 +905,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Misc_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Misc_MM.js">
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Neurology_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Neurology_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
@@ -754,6 +927,9 @@
         <line num="29" count="3" type="stmt"/>
       </file>
       <file name="Pulmonology_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Pulmonology_MM.js">
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="3" type="stmt"/>
@@ -761,7 +937,11 @@
         <line num="14" count="3" type="stmt"/>
       </file>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <file name="Misc_Tutorial.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Misc_Tutorial.js">
+=======
+      <file name="Rheumatology_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Rheumatology_MM.js">
+>>>>>>> Stashed changes
 =======
       <file name="Rheumatology_MM.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Rheumatology_MM.js">
 >>>>>>> Stashed changes
@@ -770,6 +950,7 @@
         <line num="6" count="1" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
       </file>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       <file name="Nails_MM.js" path="/Users/devam/Desktop/GitHub/cs341-spring-2022-diagnosis/diagnosis/screens/topics-screens/Nails_MM.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -831,6 +1012,8 @@
         <line num="6" count="1" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
 =======
+=======
+>>>>>>> Stashed changes
       <file name="Rheumatology_Tutorial.js" path="/Users/Lukas/School/Software Engineering/cs341-spring-2023-bandage/diagnosis/screens/topics-screens/Rheumatology_Tutorial.js">
         <metrics statements="5" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="6" count="3" type="stmt"/>
