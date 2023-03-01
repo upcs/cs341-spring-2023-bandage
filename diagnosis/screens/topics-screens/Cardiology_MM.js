@@ -11,14 +11,18 @@ const Cardiology_MM = () => {
       });
     };
 
+    const injectedJavaScript = `
+    const style = document.createElement('style');
+    style.innerHTML = 'body { font-family: sans-serif; }';
+    document.body.style.backgroundColor = 'pink';
+    document.head.appendChild(style);
+  `;
     return (
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          //injectedJavaScript={'alert(hello)'}
+          injectedJavaScript={injectedJavaScript}
           source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php'}}
-          //scalesPageToFit={false}
-          // style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
           <Text style={styles.buttonText}>Share</Text>
