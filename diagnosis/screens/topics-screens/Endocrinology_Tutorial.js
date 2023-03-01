@@ -8,7 +8,7 @@ const Endocrinology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this endocrinology tutorial content: https://physicaldiagnosispdx.com/endocrinology-2/',
+        message: 'Check out this endocrinology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Endocrinology_Tutorial.php',
       });
     };
   
@@ -16,7 +16,7 @@ const Endocrinology_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/endocrinology-2/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Endocrinology_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

@@ -30,18 +30,19 @@ import Misc_Tutorial from '../screens/topics-screens/Misc_Tutorial';
 import ID_MM from './../screens/topics-screens/ID_MM';
 import Neurology_MM from './../screens/topics-screens/Neurology_MM';
 
+// upgrade 
 describe('<Topics />', () => {
 
      test("renders correctly", () => {
         const tree = renderer.create(<Topics/>).toJSON();
         expect(tree).toMatchSnapshot();
      });
-     // Currently just testing Cardiology linking is not yet done, must make sure site is loaded right TODO
+     // Testing webview display
      test("Cardiology", () => {
         const tutorialSnap = renderer.create(<Cardiology_Tutorial/>).toJSON();
         const MMSnap = renderer.create(<Cardiology_MM/>).toJSON();
-        const tutorial = Linking.canOpenURL('https://physicaldiagnosispdx.com/card-tutorial/');
-        const MM = Linking.canOpenURL('https://physicaldiagnosispdx.com/cardiology-multimedia-new/');
+        const tutorial = Linking.canOpenURL('https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php');
+        const MM = Linking.canOpenURL('https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php');
         expect(tutorialSnap).toMatchSnapshot();
         expect(MMSnap).toMatchSnapshot();
         expect(tutorial).toBeTruthy();

@@ -7,7 +7,7 @@ const ID_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this ID tutorial content: https://physicaldiagnosispdx.com/infectious-disease-2/',
+        message: 'Check out this ID tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/ID_Tutorial.php',
       });
     };
   
@@ -15,7 +15,7 @@ const ID_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/infectious-disease-2/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/ID_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

@@ -8,7 +8,7 @@ const Nails_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this nails tutorial content: https://physicaldiagnosispdx.com/nails-2/',
+        message: 'Check out this nails tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nails_Tutorial.php',
       });
     };
   
@@ -16,7 +16,7 @@ const Nails_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/nails-2/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nails_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

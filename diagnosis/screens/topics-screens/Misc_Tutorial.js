@@ -7,7 +7,7 @@ const Misc_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this miscellaneous tutorial content: https://physicaldiagnosispdx.com/miscellanous-tutorial/',
+        message: 'Check out this miscellaneous tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Misc_Tutorial.php',
       });
     };
   
@@ -15,7 +15,7 @@ const Misc_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/miscellanous-tutorial/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Misc_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

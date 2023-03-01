@@ -105,9 +105,7 @@ exports[`<Login /> renders correctly 1`] = `
               className="sc-kDTinF cbWaEe"
               testID="msgbox"
               type=""
-            >
-              
-            </Text>
+            />
             <View
               accessible={true}
               collapsable={false}

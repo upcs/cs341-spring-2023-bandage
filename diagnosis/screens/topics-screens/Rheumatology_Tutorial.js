@@ -7,7 +7,7 @@ const Rheumatology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this rheumatology tutorial content: https://physicaldiagnosispdx.com/rheumatology-3/',
+        message: 'Check out this rheumatology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php',
       });
     };
   
@@ -15,7 +15,7 @@ const Rheumatology_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/rheumatology-3/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

@@ -7,7 +7,7 @@ const HO_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this HO tutorial content: https://physicaldiagnosispdx.com/hematology-oncology/',
+        message: 'Check out this HO tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HO_Tutorial.php',
       });
     };
   
@@ -15,7 +15,7 @@ const HO_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/hematology-oncology/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/HO_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
