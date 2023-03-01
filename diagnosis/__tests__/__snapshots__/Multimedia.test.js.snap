@@ -102,7 +102,7 @@ exports[`<MultiMedia/> renders correctly 1`] = `
           injectedJavaScriptBeforeContentLoadedForMainFrameOnly={true}
           injectedJavaScriptForMainFrameOnly={true}
           javaScriptEnabled={true}
-          messagingEnabled={false}
+          messagingEnabled={true}
           onContentProcessDidTerminate={[Function]}
           onHttpError={[Function]}
           onLoadingError={[Function]}
@@ -132,6 +132,7 @@ exports[`<MultiMedia/> renders correctly 1`] = `
               },
             ]
           }
+          textInteractionEnabled={true}
           useSharedProcessPool={true}
         />
       </View>
