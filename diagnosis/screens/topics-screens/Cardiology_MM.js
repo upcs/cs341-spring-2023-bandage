@@ -10,13 +10,15 @@ const Cardiology_MM = () => {
         message: 'Check out this cardiology multimedia content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php',
       });
     };
-  
+
     return (
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
+          //injectedJavaScript={'alert(hello)'}
           source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php'}}
-          style={styles.view}
+          //scalesPageToFit={false}
+          // style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
           <Text style={styles.buttonText}>Share</Text>
