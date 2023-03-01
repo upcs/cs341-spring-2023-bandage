@@ -1,15 +1,29 @@
 import React from 'react';
 import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'react-native';
 import { WebView } from 'react-native-webview';
+import { Share } from 'react-native';
 
-const Rheumatology_Tutorial = () => (
-    <View style={styles.mainContainer}>
-        <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php'}} 
-            style={styles.view}
+const Rheumatology_Tutorial = () => {
+
+    const handleShare = () => {
+      Share.share({
+        message: 'Check out this rheumatology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php',
+      });
+    };
+  
+    return (
+      <View style={styles.mainContainer}>
+        <WebView
+          javaScriptEnabled={true}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Rheumatology_Tutorial.php'}}
+          style={styles.view}
         />
-    </View>
-);
+        <TouchableOpacity style={styles.button} onPress={handleShare}>
+          <Text style={styles.buttonText}>Share</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  };
 
 const styles = StyleSheet.create({
     mainContainer: {
@@ -22,7 +36,18 @@ const styles = StyleSheet.create({
     view: {
         resizeMode: 'stretch',
         top: 40
-    }
+    },
+    button: {
+        backgroundColor: 'red',
+        borderRadius: 5,
+        padding: 10,
+        margin: 10,
+    },
+
+    buttonText: {
+        color: 'white',
+        textAlign: 'center',
+    },
 });
 
 export default Rheumatology_Tutorial;

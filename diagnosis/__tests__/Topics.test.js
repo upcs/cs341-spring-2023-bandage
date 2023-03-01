@@ -30,13 +30,14 @@ import Misc_Tutorial from '../screens/topics-screens/Misc_Tutorial';
 import ID_MM from './../screens/topics-screens/ID_MM';
 import Neurology_MM from './../screens/topics-screens/Neurology_MM';
 
+// upgrade 
 describe('<Topics />', () => {
 
      test("renders correctly", () => {
         const tree = renderer.create(<Topics/>).toJSON();
         expect(tree).toMatchSnapshot();
      });
-
+     // Testing webview display
      test("Cardiology", () => {
         const tutorialSnap = renderer.create(<Cardiology_Tutorial/>).toJSON();
         const MMSnap = renderer.create(<Cardiology_MM/>).toJSON();
