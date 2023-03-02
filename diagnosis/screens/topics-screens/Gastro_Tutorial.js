@@ -7,16 +7,24 @@ const Gastro_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this gastro tutorial content: https://physicaldiagnosispdx.com/gastroenterology/',
+        message: 'Check out this gastro tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Gastro_Tutorial.php',
       });
     };
+
+    const injectedJavaScript = `
+    var style = document.createElement('style');
+    style.innerHTML = 'body { font-family: sans-serif; }';
+    document.body.style.backgroundColor = 'pink';
+    document.head.appendChild(style);
+  `;
   
     return (
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/gastroenterology/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Gastro_Tutorial.php'}}
           style={styles.view}
+          injectedJavaScript={injectedJavaScript}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
           <Text style={styles.buttonText}>Share</Text>

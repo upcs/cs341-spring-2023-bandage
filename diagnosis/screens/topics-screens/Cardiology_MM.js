@@ -7,16 +7,22 @@ const Cardiology_MM = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this cardiology multimedia content: https://physicaldiagnosispdx.com/cardiology-multimedia-new/',
+        message: 'Check out this cardiology multimedia content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php',
       });
     };
-  
+
+    const injectedJavaScript = `
+    const style = document.createElement('style');
+    style.innerHTML = 'body { font-family: sans-serif; }';
+    document.body.style.backgroundColor = 'pink';
+    document.head.appendChild(style);
+  `;
     return (
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/cardiology-multimedia-new/'}}
-          style={styles.view}
+          injectedJavaScript={injectedJavaScript}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php'}}
         />
         <TouchableOpacity 
           style={styles.button} 

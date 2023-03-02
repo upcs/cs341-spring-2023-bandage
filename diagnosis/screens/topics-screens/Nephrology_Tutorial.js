@@ -7,15 +7,20 @@ const Nephrology_Tutorial = () => {
 
     const handleShare = () => {
       Share.share({
-        message: 'Check out this nephrology tutorial content: https://physicaldiagnosispdx.com/nephrology-3/',
+        message: 'Check out this nephrology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nephrology_Tutorial.php',
       });
     };
-  
+    const injectedJavaScript = `
+    var style = document.createElement('style');
+    style.innerHTML = 'body { font-family: sans-serif; }';
+    document.body.style.backgroundColor = ' FFF5EE';
+    document.head.appendChild(style);
+  `; // THE JS THAT INJECTS
     return (
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
-          source={{uri: 'https://physicaldiagnosispdx.com/nephrology-3/'}}
+          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nephrology_Tutorial.php'}}
           style={styles.view}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>

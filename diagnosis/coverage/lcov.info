@@ -12,7 +12,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:assets\Andre-314x314.png
+SF:assets/Andre-314x314.png
 FNF:0
 FNH:0
 DA:1,1
@@ -22,7 +22,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:assets\Sullivan.jpeg
+SF:assets/Sullivan.jpeg
 FNF:0
 FNH:0
 DA:1,1
@@ -32,7 +32,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:assets\cropped-logo_new-1.png
+SF:assets/cropped-logo_new-1.png
 FNF:0
 FNH:0
 DA:1,2
@@ -42,7 +42,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:assets\ishita-sharma.jpeg
+SF:assets/ishita-sharma.jpeg
 FNF:0
 FNH:0
 DA:1,1
@@ -52,7 +52,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:assets\jgn.jpg
+SF:assets/jgn.jpg
 FNF:0
 FNH:0
 DA:1,1
@@ -62,7 +62,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:assets\stethoscope.jpeg
+SF:assets/stethoscope.jpeg
 FNF:0
 FNH:0
 DA:1,1
@@ -72,7 +72,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components\CarouselCardItem.js
+SF:components/CarouselCardItem.js
 FN:7,(anonymous_0)
 FNF:1
 FNH:0
@@ -88,7 +88,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components\CustomDrawer.js
+SF:components/CustomDrawer.js
 FN:7,(anonymous_0)
 FN:23,(anonymous_1)
 FNF:2
@@ -105,7 +105,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components\KeyboardAvoidWrap.js
+SF:components/KeyboardAvoidWrap.js
 FN:6,(anonymous_0)
 FNF:1
 FNH:1
@@ -118,7 +118,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components\SignUpLoginStyles.js
+SF:components/SignUpLoginStyles.js
 FNF:0
 FNH:0
 DA:5,6
@@ -147,7 +147,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:navigators\DrawerNavigator.js
+SF:navigators/DrawerNavigator.js
 FN:31,(anonymous_0)
 FN:34,(anonymous_1)
 FN:45,(anonymous_2)
@@ -229,7 +229,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:navigators\StackNavigator.js
+SF:navigators/StackNavigator.js
 FN:45,(anonymous_0)
 FNF:1
 FNH:0
@@ -243,7 +243,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\AboutUs.js
+SF:screens/AboutUs.js
 FN:6,(anonymous_0)
 FNF:1
 FNH:1
@@ -257,7 +257,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Activities.js
+SF:screens/Activities.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -271,7 +271,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Books.js
+SF:screens/Books.js
 FN:15,(anonymous_0)
 FN:25,(anonymous_1)
 FN:36,(anonymous_2)
@@ -303,7 +303,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Community.js
+SF:screens/Community.js
 FN:4,(anonymous_0)
 FNF:1
 FNH:0
@@ -317,7 +317,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Donate.js
+SF:screens/Donate.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
@@ -331,7 +331,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\KnowledgeTest.js
+SF:screens/KnowledgeTest.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
@@ -345,7 +345,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Lecture_DR.js
+SF:screens/Lecture_DR.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
@@ -359,7 +359,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Lecture_JVP.js
+SF:screens/Lecture_JVP.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
@@ -373,7 +373,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Lecture_VHD.js
+SF:screens/Lecture_VHD.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
@@ -387,7 +387,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Lectures.js
+SF:screens/Lectures.js
 FN:4,(anonymous_0)
 FN:10,(anonymous_1)
 FN:14,(anonymous_2)
@@ -410,7 +410,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Login.js
+SF:screens/Login.js
 FN:36,(anonymous_0)
 FN:53,(anonymous_1)
 FN:69,(anonymous_2)
@@ -482,7 +482,7 @@ BRF:14
 BRH:11
 end_of_record
 TN:
-SF:screens\MainMenu.js
+SF:screens/MainMenu.js
 FN:7,(anonymous_0)
 FN:21,(anonymous_1)
 FN:25,(anonymous_2)
@@ -518,7 +518,7 @@ BRF:4
 BRH:2
 end_of_record
 TN:
-SF:screens\Multimedia.js
+SF:screens/Multimedia.js
 FN:16,(anonymous_0)
 FN:19,(anonymous_1)
 FN:19,(anonymous_2)
@@ -560,7 +560,7 @@ BRF:4
 BRH:2
 end_of_record
 TN:
-SF:screens\Settings.js
+SF:screens/Settings.js
 FN:6,(anonymous_0)
 FN:11,(anonymous_1)
 FN:15,(anonymous_2)
@@ -586,7 +586,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Signup.js
+SF:screens/Signup.js
 FN:42,(anonymous_0)
 FN:54,(anonymous_1)
 FN:59,(anonymous_2)
@@ -656,7 +656,7 @@ BRF:26
 BRH:23
 end_of_record
 TN:
-SF:screens\TeamInfo.js
+SF:screens/TeamInfo.js
 FN:6,(anonymous_0)
 FN:19,(anonymous_1)
 FN:25,(anonymous_2)
@@ -685,7 +685,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\Topics.js
+SF:screens/Topics.js
 FN:5,Topics
 FN:9,(anonymous_1)
 FN:14,(anonymous_2)
@@ -878,25 +878,25 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Cardiology_MM.js
+SF:screens/topics-screens/Cardiology_MM.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
-FNH:2
-FNDA:2,(anonymous_0)
-FNDA:1,(anonymous_1)
-DA:6,4
-DA:8,2
-DA:9,1
-DA:14,2
-DA:33,4
+FNH:1
+FNDA:1,(anonymous_0)
+FNDA:0,(anonymous_1)
+DA:6,3
+DA:8,1
+DA:9,0
+DA:14,1
+DA:30,3
 LF:5
-LH:5
+LH:4
 BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Cardiology_Tutorial.js
+SF:screens/topics-screens/Cardiology_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -914,7 +914,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Endocrinology_MM.js
+SF:screens/topics-screens/Endocrinology_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -928,7 +928,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Endocrinology_Tutorial.js
+SF:screens/topics-screens/Endocrinology_Tutorial.js
 FN:7,(anonymous_0)
 FN:9,(anonymous_1)
 FNF:2
@@ -946,7 +946,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Gastro_MM.js
+SF:screens/topics-screens/Gastro_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:0
@@ -960,7 +960,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Gastro_Tutorial.js
+SF:screens/topics-screens/Gastro_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -978,7 +978,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\HC_MM.js
+SF:screens/topics-screens/HC_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -992,7 +992,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\HC_Tutorial.js
+SF:screens/topics-screens/HC_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1010,7 +1010,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\HO_MM.js
+SF:screens/topics-screens/HO_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1024,7 +1024,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\HO_Tutorial.js
+SF:screens/topics-screens/HO_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1042,7 +1042,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\ID_MM.js
+SF:screens/topics-screens/ID_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1056,7 +1056,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\ID_Tutorial.js
+SF:screens/topics-screens/ID_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1074,7 +1074,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Misc_MM.js
+SF:screens/topics-screens/Misc_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1088,7 +1088,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Misc_Tutorial.js
+SF:screens/topics-screens/Misc_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1106,7 +1106,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Nails_MM.js
+SF:screens/topics-screens/Nails_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1120,7 +1120,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Nails_Tutorial.js
+SF:screens/topics-screens/Nails_Tutorial.js
 FN:7,(anonymous_0)
 FN:9,(anonymous_1)
 FNF:2
@@ -1138,7 +1138,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Nephrology_MM.js
+SF:screens/topics-screens/Nephrology_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1152,7 +1152,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Nephrology_Tutorial.js
+SF:screens/topics-screens/Nephrology_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1170,7 +1170,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Neurology_MM.js
+SF:screens/topics-screens/Neurology_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1184,7 +1184,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Neurology_Tutorial.js
+SF:screens/topics-screens/Neurology_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1202,7 +1202,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Pulmonolgy.js
+SF:screens/topics-screens/Pulmonolgy.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2
@@ -1220,7 +1220,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Pulmonology_MM.js
+SF:screens/topics-screens/Pulmonology_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1234,7 +1234,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Rheumatology_MM.js
+SF:screens/topics-screens/Rheumatology_MM.js
 FN:5,(anonymous_0)
 FNF:1
 FNH:1
@@ -1248,7 +1248,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:screens\topics-screens\Rheumatology_Tutorial.js
+SF:screens/topics-screens/Rheumatology_Tutorial.js
 FN:6,(anonymous_0)
 FN:8,(anonymous_1)
 FNF:2

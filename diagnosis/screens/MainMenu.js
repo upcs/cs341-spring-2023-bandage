@@ -11,7 +11,7 @@ const MainMenu = ({ route, navigation }) => {
         <View style={styles.mainContainer}> 
             <Image style={styles.stethoscopeImage} source={require('diagnosis/assets/stethoscope.jpeg')} blurRadius={1}></Image>
             <Text style={styles.welcomeText}>{now.getHours() < 12 ? "Good morning" : (now.getHours() < 18) ? "Good afternoon" : "Good evening"}, {"\n" + name}
-            </Text>
+            </Text> 
 
             <View style={styles.middleLineLeft}></View>
             <ExtraText style={styles.PDXCenterText}>PDX</ExtraText>
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#BFAA8C",
+        backgroundColor: "#4B4645",
         height: Dimensions.get('window').height,
         width: Dimensions.get('window').width
     },
