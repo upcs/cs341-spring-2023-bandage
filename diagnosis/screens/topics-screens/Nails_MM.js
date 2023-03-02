@@ -7,9 +7,17 @@ const Nails_MM = () => (
         <WebView 
             javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nails_MM.php'}} 
             style={styles.view}
+            injectedJavaScript={injectedJavaScript}
         />
     </View>
 );
+
+const injectedJavaScript = `
+const style = document.createElement('style');
+style.innerHTML = 'body { font-family: sans-serif; }';
+document.body.style.backgroundColor = '14CABA';
+document.head.appendChild(style);
+`;
 
 const styles = StyleSheet.create({
     mainContainer: {

@@ -10,6 +10,13 @@ const Misc_Tutorial = () => {
         message: 'Check out this miscellaneous tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Misc_Tutorial.php',
       });
     };
+    
+    const injectedJavaScript = `
+    var style = document.createElement('style');
+    style.innerHTML = 'body { font-family: sans-serif; }';
+    document.body.style.backgroundColor = '14CABA';
+    document.head.appendChild(style);
+  `; // THE JS THAT INJECTS
   
     return (
       <View style={styles.mainContainer}>
@@ -17,6 +24,7 @@ const Misc_Tutorial = () => {
           javaScriptEnabled={true}
           source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Misc_Tutorial.php'}}
           style={styles.view}
+          injectedJavaScript={injectedJavaScript}
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
           <Text style={styles.buttonText}>Share</Text>
