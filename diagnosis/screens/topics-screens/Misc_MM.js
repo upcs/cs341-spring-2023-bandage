@@ -7,10 +7,18 @@ const Misc_MM = () => (
         <WebView 
             javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Misc_MM.php'}} 
             style={styles.view}
+            injectedJavaScript={injectedJavaScript}
         />
     </View>
 );
 
+const injectedJavaScript = `
+    var style = document.createElement('style');
+    style.innerHTML = 'body { font-family: sans-serif; }';
+    document.body.style.backgroundColor = '14CABA';
+    document.head.appendChild(style);
+  `; // THE JS THAT INJECTS
+  
 const styles = StyleSheet.create({
     mainContainer: {
         flex: 1,
