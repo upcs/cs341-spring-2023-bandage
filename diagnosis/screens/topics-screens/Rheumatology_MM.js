@@ -11,7 +11,7 @@ const Rheumatology_MM = () => {
       const injectedJavaScript = `
       var style = document.createElement('style');
       style.innerHTML = 'body { font-family: sans-serif; }';
-      document.body.style.backgroundColor = '14CABA';
+      document.body.style.backgroundColor = 'FFF5EE';
       document.head.appendChild(style);
     `; // THE JS THAT INJECTS
     return (
