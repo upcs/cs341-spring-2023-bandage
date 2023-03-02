@@ -12,7 +12,7 @@ const Neurology_MM = () => {
       const injectedJavaScript = `
       const style = document.createElement('style');
       style.innerHTML = 'body { font-family: sans-serif; }';
-      document.body.style.backgroundColor = 'pink';
+      document.body.style.backgroundColor = 'FFF5EE';
       document.head.appendChild(style);
     `;
     return(
@@ -20,6 +20,7 @@ const Neurology_MM = () => {
         <WebView 
             javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Neurology_MM.php'}} 
             style={styles.view}
+            injectedJavaScript={injectedJavaScript}
         />
     </View>
     );

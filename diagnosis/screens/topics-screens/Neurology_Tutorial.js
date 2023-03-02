@@ -21,6 +21,7 @@ const Neurology_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
+          injectedJavaScript={injectedJavaScript}
           source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Neurology_Tutorial.php'}}
           style={styles.view}
         />

@@ -20,6 +20,7 @@ const Nephrology_Tutorial = () => {
       <View style={styles.mainContainer}>
         <WebView
           javaScriptEnabled={true}
+          injectedJavaScript={injectedJavaScript}
           source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Nephrology_Tutorial.php'}}
           style={styles.view}
         />
