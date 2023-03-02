@@ -13,7 +13,7 @@ const Cardiology_Tutorial = () => {
     const injectedJavaScript = `
     var style = document.createElement('style');
     style.innerHTML = 'body { font-family: sans-serif; }';
-    document.body.style.backgroundColor = 'pink';
+    document.body.style.backgroundColor = 'FFF5EE';
     document.head.appendChild(style);
   `; // THE JS THAT INJECTS
     return (
