@@ -24,12 +24,17 @@ const Cardiology_MM = () => {
           injectedJavaScript={injectedJavaScript}
           source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php'}}
         />
-        <TouchableOpacity style={styles.button} onPress={handleShare}>
+        <TouchableOpacity 
+          style={styles.button} 
+          onPress={handleShare}
+          testID="shareButton" // add a testID prop
+        >
           <Text style={styles.buttonText}>Share</Text>
         </TouchableOpacity>
       </View>
     );
   };
+
 
 const styles = StyleSheet.create({
     mainContainer: {
