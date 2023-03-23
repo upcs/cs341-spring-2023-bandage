@@ -4,7 +4,7 @@ import { WebView } from 'react-native-webview';
 import { Share } from 'react-native';
 import LottieView from 'lottie-react-native';
 import loadingAnimation from '../../assets/loading.json';
-//Loading screen asset taken from https://app.lottiefiles.com/animation/902376b7-a940-4145-8660-4cbf5c8ca003
+
 
 const Cardiology_MM = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,10 +23,9 @@ const Cardiology_MM = () => {
     window.ReactNativeWebView.postMessage('loaded');
   `;
 
-  
   const onMessage = (event) => {
     if (event.nativeEvent.data === 'loaded') {
-      setIsLoading(false);
+      setTimeout(() => setIsLoading(false), 2000); // Delay setting isLoading to false by 2 seconds
     }
   };
 
