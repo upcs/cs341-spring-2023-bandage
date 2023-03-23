@@ -10,6 +10,9 @@ const Cardiology_Tutorial = () => {
         message: 'Check out this cardiology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php',
       });
     };
+    const renderHeader = () => {
+      return null;
+    };
     const injectedJavaScript = `
     var style = document.createElement('style');
     style.innerHTML = 'body { font-family: sans-serif; }';
@@ -19,10 +22,9 @@ const Cardiology_Tutorial = () => {
     return (
       <View style={styles.mainContainer}>
         <WebView
-          javaScriptEnabled={true}
-          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php'}}
+          javaScriptEnabled={true} source={{uri: 'https://physicaldiagnosispdx.com/card-tutorial/'}} 
           style={styles.view}
-          injectedJavaScript={injectedJavaScript} // INJECT JS
+          renderHeader={renderHeader} 
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
           <Text style={styles.buttonText}>Share</Text>
