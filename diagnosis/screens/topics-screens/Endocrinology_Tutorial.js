@@ -24,7 +24,7 @@ const Endocrinology_Tutorial = () => {
   
   const onMessage = (event) => {
     if (event.nativeEvent.data === 'loaded') {
-      ssetTimeout(() => setIsLoading(false), 2000); // Delay setting isLoading to false by 2 seconds
+      setTimeout(() => setIsLoading(false), 2000); // Delay setting isLoading to false by 2 seconds
     }
   };
   
