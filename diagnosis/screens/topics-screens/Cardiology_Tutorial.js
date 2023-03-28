@@ -10,19 +10,23 @@ const Cardiology_Tutorial = () => {
         message: 'Check out this cardiology tutorial content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php',
       });
     };
+
     const injectedJavaScript = `
-    var style = document.createElement('style');
-    style.innerHTML = 'body { font-family: sans-serif; }';
-    document.body.style.backgroundColor = 'FFF5EE';
-    document.head.appendChild(style);
-  `; // THE JS THAT INJECTS
+    // remove header element from the HTML
+    const header = document.querySelector('header');
+    if (header) {
+      header.remove();
+    }
+    window.ReactNativeWebView.postMessage('loaded');
+    true;
+  `;
+
     return (
       <View style={styles.mainContainer}>
         <WebView
-          javaScriptEnabled={true}
-          source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_Tutorial.php'}}
-          style={styles.view}
-          injectedJavaScript={injectedJavaScript} // INJECT JS
+          javaScriptEnabled={true} 
+          injectedJavaScript={injectedJavaScript}
+          source={{uri: 'https://physicaldiagnosispdx.com/card-tutorial/'}} 
         />
         <TouchableOpacity style={styles.button} onPress={handleShare}>
           <Text style={styles.buttonText}>Share</Text>

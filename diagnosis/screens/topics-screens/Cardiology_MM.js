@@ -9,19 +9,21 @@ import loadingAnimation from '../../assets/loading.json';
 const Cardiology_MM = () => {
   const [isLoading, setIsLoading] = useState(true);
 
+  const injectedJavaScript = `
+  // remove header element from the HTML
+  const header = document.querySelector('header');
+  if (header) {
+    header.remove();
+  }
+  window.ReactNativeWebView.postMessage('loaded');
+  true;
+`;
+
   const handleShare = () => {
     Share.share({
-      message: 'Check out this cardiology multimedia content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php',
+      message: 'Check out this cardiology multimedia content: https://physicaldiagnosispdx.com/cardiology-multimedia-new/',
     });
   };
-
-  const injectedJavaScript = `
-    const style = document.createElement('style');
-    style.innerHTML = 'body { font-family: sans-serif; }';
-    document.body.style.backgroundColor = 'FFF5EE';
-    document.head.appendChild(style);
-    window.ReactNativeWebView.postMessage('loaded');
-  `;
 
   const onMessage = (event) => {
     if (event.nativeEvent.data === 'loaded') {
@@ -44,7 +46,7 @@ const Cardiology_MM = () => {
       <WebView
         javaScriptEnabled={true}
         injectedJavaScript={injectedJavaScript}
-        source={{ uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php' }}
+        source={{ uri: 'https://physicaldiagnosispdx.com/cardiology-multimedia-new/'}}
         onMessage={onMessage}
         style={isLoading ? { display: 'none' } : { flex: 1 }}
       />
