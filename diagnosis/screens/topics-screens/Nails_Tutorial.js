@@ -36,6 +36,7 @@ const Nails_Tutorial = () => {
     }
   };
 
+  //Loading Screen
   return (
     <View style={styles.mainContainer}>
       {isLoading ? (
