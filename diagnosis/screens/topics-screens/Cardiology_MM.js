@@ -27,7 +27,7 @@ const Cardiology_MM = () => {
 
   const onMessage = (event) => {
     if (event.nativeEvent.data === 'loaded') {
-      setTimeout(() => setIsLoading(false), 2000); // Delay setting isLoading to false by 2 seconds
+      setTimeout(() => setIsLoading(false), 1000); // Delay setting isLoading to false by 2 seconds
     }
   };
 

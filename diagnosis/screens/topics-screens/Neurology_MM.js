@@ -3,41 +3,97 @@ import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'rea
 import { WebView } from 'react-native-webview';
 
 const Neurology_MM = () => {
-    const handleShare = () => {
-        Share.share({
-          message: 'Check out this cardiology multimedia content: https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Cardiology_MM.php',
-        });
-      };
+    const [isLoading, setIsLoading] = useState(true);
+
+  const injectedJavaScript = `
+  // remove header element from the HTML
+  const header = document.querySelector('header');
+  if (header) {
+    header.remove();
+  }
+  var element = document.querySelector('div.footer-wrap');
+  element.parentNode.removeChild(element);
+  var element = document.querySelector('footer.site-footer');
+  element.parentNode.removeChild(element);
+  element.remove();
   
-      const injectedJavaScript = `
-      const style = document.createElement('style');
-      style.innerHTML = 'body { font-family: sans-serif; }';
-      document.body.style.backgroundColor = 'FFF5EE';
-      document.head.appendChild(style);
-    `;
-    return(
+  window.ReactNativeWebView.postMessage('loaded');
+  true;
+`;
+
+  const handleShare = () => {
+    Share.share({
+      message: 'Check out this neurology multimedia content: https://physicaldiagnosispdx.com/neurology-m/',
+    });
+  };
+
+  const onMessage = (event) => {
+    if (event.nativeEvent.data === 'loaded') {
+      setTimeout(() => setIsLoading(false), 1000); // Delay setting isLoading to false by 2 seconds
+    }
+  };
+
+  return (
     <View style={styles.mainContainer}>
-        <WebView 
-            javaScriptEnabled={true} source={{uri: 'https://up.physicaldiagnosispdx.com/up/app-content/server-screens/Neurology_MM.php'}} 
-            style={styles.view}
-            injectedJavaScript={injectedJavaScript}
-        />
+      {isLoading ? (
+        <View style={styles.animationContainer}>
+          <LottieView
+            source={loadingAnimation}
+            autoPlay
+            loop
+            style={styles.animation}
+          />
+        </View>
+      ) : null}
+      <WebView
+        javaScriptEnabled={true}
+        injectedJavaScript={injectedJavaScript}
+        source={{ uri: 'https://physicaldiagnosispdx.com/neurology-m/'}}
+        onMessage={onMessage}
+        style={isLoading ? { display: 'none' } : { flex: 1 }}
+      />
+      <TouchableOpacity
+        style={styles.button}
+        onPress={handleShare}
+        testID="shareButton" // add a testID prop
+      >
+        <Text style={styles.buttonText}>Share</Text>
+      </TouchableOpacity>
     </View>
-    );
-    };
+  );
+};
 
 const styles = StyleSheet.create({
-    mainContainer: {
-        flex: 1,
-        backgroundColor: "#BFAA8C",
-        height: Dimensions.get('window').height,
-        width: Dimensions.get('window').width
-    },
-    
-    view: {
-        resizeMode: 'stretch',
-        top: 40
-    }
+  mainContainer: {
+    flex: 1,
+    backgroundColor: "#BFAA8C",
+    height: Dimensions.get('window').height,
+    width: Dimensions.get('window').width
+  },
+
+  animationContainer: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#BFAA8C'
+  },
+
+  animation: {
+    width: 200,
+    height: 200
+  },
+
+  button: {
+    backgroundColor: 'red',
+    borderRadius: 5,
+    padding: 10,
+    margin: 10,
+  },
+
+  buttonText: {
+    color: 'white',
+    textAlign: 'center',
+  },
 });
 
 export default Neurology_MM;
