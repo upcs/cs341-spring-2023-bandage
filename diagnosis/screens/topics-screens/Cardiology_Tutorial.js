@@ -20,9 +20,6 @@ const Cardiology_Tutorial = () => {
 
     var element = document.querySelector('div.footer-wrap');
     element.parentNode.removeChild(element);
-
-    var element = document.querySelector('footer.site-footer');
-    element.parentNode.removeChild(element);
     element.remove();
     
     window.ReactNativeWebView.postMessage('loaded');
