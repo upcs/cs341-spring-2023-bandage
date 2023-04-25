@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, View, StyleSheet, Image, TouchableOpacity, Dimensions } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { Share } from 'react-native';
+import LottieView from 'lottie-react-native';
+import loadingAnimation from '../../assets/loading.json';
 
 
 const Nails_Tutorial = () => {
@@ -16,8 +18,6 @@ const Nails_Tutorial = () => {
   }
   var element = document.querySelector('div.footer-wrap');
   element.parentNode.removeChild(element);
-  var element = document.querySelector('footer.site-footer');
-  element.parentNode.removeChild(element);
   element.remove();
   
   window.ReactNativeWebView.postMessage('loaded');
@@ -26,7 +26,7 @@ const Nails_Tutorial = () => {
 
   const handleShare = () => {
     Share.share({
-      message: 'Check out this cardiology multimedia content: https://physicaldiagnosispdx.com/rheumatology-3/',
+      message: 'Check out this nail tutorial content: https://physicaldiagnosispdx.com/rheumatology-3/',
     });
   };
 
