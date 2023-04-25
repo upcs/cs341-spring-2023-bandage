@@ -15,6 +15,11 @@ const Cardiology_MM = () => {
   if (header) {
     header.remove();
   }
+
+  var element1 = document.querySelector('div.footer-wrap');
+  element1.parentNode.removeChild(element1);
+  element1.remove();
+  
   window.ReactNativeWebView.postMessage('loaded');
   true;
 `;
