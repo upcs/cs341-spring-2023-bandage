@@ -5,7 +5,6 @@ import { Share } from 'react-native';
 import LottieView from 'lottie-react-native';
 import loadingAnimation from '../../assets/loading.json';
 
-
 const Cardiology_MM = () => {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -15,13 +14,17 @@ const Cardiology_MM = () => {
   if (header) {
     header.remove();
   }
+  var element = document.querySelector('div.footer-wrap');
+  element.parentNode.removeChild(element);
+  element.remove();
+  
   window.ReactNativeWebView.postMessage('loaded');
   true;
 `;
 
   const handleShare = () => {
     Share.share({
-      message: 'Check out this cardiology multimedia content: https://physicaldiagnosispdx.com/cardiology-multimedia-new/',
+      message: 'Check out this Cardiology multimedia content: https://physicaldiagnosispdx.com/cardiology-multimedia-new/',
     });
   };
 
