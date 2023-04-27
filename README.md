@@ -25,4 +25,20 @@ Our Top 5 System Quality Attributes Are:
 4) Modifiability
 5) Simplicity
 
-Updated: 2/16/23
+Currently attempted process for App building/submittal from terminal:
+    1) npm install -g eas-cli
+        This ensures the the proper EAS client is installed
+    2) eas login
+        Log in to EAS account that the build will be submitted to
+    3) eas build:configure
+        Configure build for EAS
+    4) eas build --platform ios
+        Begin the build with the desire platform (ios in our case)
+        *App Developer Account Needed At This Step*
+
+    The build is now visible on the according eas account on the website eas.dev
+    Build status can be monitored until completion or failure
+
+    The idea is that one an app binary is succsefully built, we then submit it through https://appstoreconnect.apple.com/
+
+Updated: 4/25/23
