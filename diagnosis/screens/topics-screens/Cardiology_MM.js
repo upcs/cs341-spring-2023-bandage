@@ -8,7 +8,7 @@ import loadingAnimation from '../../assets/loading.json';
 const Cardiology_MM = () => {
   const [isLoading, setIsLoading] = useState(true);
 
-  const injectedJavaScript = `
+ const injectedJavaScript = `
   // remove header element from the HTML
   const header = document.querySelector('header');
   if (header) {
