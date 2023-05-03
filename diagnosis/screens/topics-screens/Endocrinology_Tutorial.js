@@ -6,60 +6,61 @@ import LottieView from 'lottie-react-native';
 import loadingAnimation from '../../assets/loading.json';
 
 const Endocrinology_Tutorial = () => {
+
   const [isLoading, setIsLoading] = useState(true);
+
+  const injectedJavaScript = `
+  // remove header element from the HTML
+  const header = document.querySelector('header');
+  if (header) {
+    header.remove();
+  }
+  var element = document.querySelector('div.footer-wrap');
+  element.parentNode.removeChild(element);
+  element.remove();
+  
+  window.ReactNativeWebView.postMessage('loaded');
+  true;
+`;
 
   const handleShare = () => {
     Share.share({
-      message: 'Check out this endocrinology tutorial content: https://physicaldiagnosispdx.com/endocrinology-2/',
+      message: 'Check out this Endocrinology tutorial content: https://physicaldiagnosispdx.com/endocrinology-2/',
     });
   };
 
-  const injectedJavaScript = `
-    const style = document.createElement('style');
-    style.innerHTML = 'body { font-family: sans-serif; }';
-    document.body.style.backgroundColor = 'FFF5EE';
-    document.head.appendChild(style);
-    window.ReactNativeWebView.postMessage('loaded');
-  `;
-  
   const onMessage = (event) => {
     if (event.nativeEvent.data === 'loaded') {
-      setTimeout(() => setIsLoading(false), 2000); // Delay setting isLoading to false by 2 seconds
+      setTimeout(() => setIsLoading(false), 1000); // Delay setting isLoading to false by 2 seconds
     }
-  };
-  
-  const renderHeader = () => {
-    return null;
   };
 
   return (
     <View style={styles.mainContainer}>
       {isLoading ? (
-        <View style={styles.loadingContainer}>
+        <View style={styles.animationContainer}>
           <LottieView
             source={loadingAnimation}
             autoPlay
             loop
-            style={styles.loadingAnimation}
+            style={styles.animation}
           />
         </View>
       ) : null}
-        <>
-          <WebView
-            javaScriptEnabled={true}
-            injectedJavaScript={injectedJavaScript}
-            source={{ uri: 'https://physicaldiagnosispdx.com/endocrinology-2/' }}
-            onMessage={onMessage}
-            renderHeader={renderHeader}
-            style={isLoading ? { display: 'none' } : { flex: 1 }}
-          />
-          <TouchableOpacity 
-            style={styles.button}
-            onPress={handleShare}
-          >
-            <Text style={styles.buttonText}>Share</Text>
-          </TouchableOpacity>
-        </>
+      <WebView
+        javaScriptEnabled={true}
+        injectedJavaScript={injectedJavaScript}
+        source={{ uri: 'https://physicaldiagnosispdx.com/endocrinology-2/'}}
+        onMessage={onMessage}
+        style={isLoading ? { display: 'none' } : { flex: 1 }}
+      />
+      <TouchableOpacity
+        style={styles.button}
+        onPress={handleShare}
+        testID="shareButton" // add a testID prop
+      >
+        <Text style={styles.buttonText}>Share</Text>
+      </TouchableOpacity>
     </View>
   );
 };
@@ -96,5 +97,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
+
 
 export default Endocrinology_Tutorial;
